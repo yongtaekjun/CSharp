@@ -1,0 +1,66 @@
+	age = 38;				
+	age = age + 1				
+	age += 1;				
+	age++;				
+	age += 3;				
+	age = 40;				
+	if ( age == 38 ) {			if ( age == 38 ) {	
+		// You are 38			// You are 38
+	}			}	
+	else if ( age == 39 ) {			if ( age == 39 ) {	
+		// You are 39			// You are 39
+	}			}	
+	else if ( age == 40 ) {			if ( age == 40 ) {	
+		// You are 40			// You are 40
+	}			}	
+	else if ( age == 41 ) {			if ( age == 41 ) {	
+		// You are 41			// You are 41
+	}			}	
+					
+					
+					
+	// age 44				
+	select age {		// same as if		
+		case 32,33,34,39			
+			Console.WriteLn("your ar 30's");		
+			break;		
+		case 40,41,44,45			
+			Console.WriteLn("your are still good");		
+			//break;		
+		case 50,55			
+			Console.WriteLn("Not Bad");		
+			break;		
+		others			
+			Console.WriteLn("Sometimes Happy!");		
+	}				
+	// age 44				
+					
+	for ( uint i = 3; i < 8; i++ )				
+	{	age+= i;			
+	}				
+	uint[] arr = { 100, 200, 300, 400 }; // arr[0] = 100, arr[1] = 200				
+	uint arr0 = 100;				
+	uint arr1 = 200;				
+	uint arr2 = 300;				
+	uint arr3 = 400;				
+	sum = arr0 + arr1+ arr2 + arr3;				
+	uint sum = 0;				
+	for (uint i = 0; i < 4; i++)				
+	{				
+		sum += arr[i];			
+	}				
+	tbMessage.Text = "The sum is " + sum;				
+					
+					
+					
+					
+					
+					
+					
+	do while {				
+	}				
+	while {				
+	}				
+					
+	a = a + 1				
+					
