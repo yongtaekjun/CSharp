@@ -1,0 +1,25 @@
+
+	for ( uint i = 3; i < 8; i++ )				
+	{	age+= i;			
+	}				
+	uint[] arr = { 100, 200, 300, 400 }; // arr[0] = 100, arr[1] = 200				
+	uint arr0 = 100;				
+	uint arr1 = 200;				
+	uint arr2 = 300;				
+	uint arr3 = 400;				
+	sum = arr0 + arr1+ arr2 + arr3;				
+	uint sum = 0;				
+	for (uint i = 0; i < 4; i++)				
+	{				
+		sum += arr[i];			
+	}				
+	tbMessage.Text = "The sum is " + sum;				
+					
+					
+	do while {				
+	}				
+	while {				
+	}				
+					
+	a = a + 1				
+					
