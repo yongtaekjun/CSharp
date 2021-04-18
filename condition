@@ -1,35 +1,43 @@
-	age = 38;				
-	age = age + 1				
-	age += 1;				
-	age++;				
-	age += 3;				
-	age = 40;
+	uint age = 40;
 	
-	// looks same results whatever you use else or non-else
-	if ( age == 38 ) {			if ( age == 38 ) {	
-		// You are 38			// You are 38
-	}			}	
-	else if ( age == 39 ) {			if ( age == 39 ) {	
-		// You are 39			// You are 39
-	}			}	
-	else if ( age == 40 ) {			if ( age == 40 ) {	
-		// You are 40			// You are 40
-	}			}	
-	else if ( age == 41 ) {			if ( age == 41 ) {	
-		// You are 41			// You are 41
-	}			}	
+	// condition 1: using if and else
+	if ( age == 38 ) {			
+		// You are 38			
+	}			
+	else if ( age == 39 ) {	
+		// You are 39	
+	}			
+	else if ( age == 40 ) {	
+		// You are 40	
+	}			
+	else if ( age == 41 ) {	
+		// You are 41	
+	}		
+					
+	// condition 2: using if only
+	if ( age == 38 ) {			
+		// You are 38			
+	}			
+	if ( age == 39 ) {	
+		// You are 39	
+	}			
+	if ( age == 40 ) {	
+		// You are 40	
+	}			
+	if ( age == 41 ) {	
+		// You are 41	
+	}		
 					
 					
-					
-	// age 44				
+	// condition 3: using switch				
 	switch (age) {		// same as if		
-		case 32,33,34,39			
-			Console.WriteLn("your ar 30's");		
+		case 32,33,34,39:			
+			Console.WriteLn("your are 30's");		
 			break;		
-		case 40,41,44,45			
+		case 40,41,44,45:			
 			Console.WriteLn("your are still good");		
-			//break;		
-		case 50,55			
+			//break; // Test what happen when not using break in case statement.
+		case 50,55:		
 			Console.WriteLn("Not Bad");		
 			break;		
 		default:    // default statement sequence			
