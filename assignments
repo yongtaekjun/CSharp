@@ -1,0 +1,7 @@
+	uint age = 38;				
+  
+	age = age + 1 // age became 39
+	age += 1; // same as age = age + 1;
+	age++;    // same as age = age + 1;
+  age--;    // age = age -1;
+	age += 3;	// same as age = age + 3;			
